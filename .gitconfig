@@ -1,6 +1,6 @@
 [user]
         name = bprivat
-        email = bprivat@yahoo-inc.com
+        email = ben.privat1@gmail.com
 [alias]
     st = status -sb
     g = log --oneline --topo-order --graph --decorate
