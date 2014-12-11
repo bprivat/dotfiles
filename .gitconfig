@@ -1,0 +1,23 @@
+[user]
+        name = bprivat
+        email = bprivat@yahoo-inc.com
+[alias]
+    st = status -sb
+    g = log --oneline --topo-order --graph --decorate
+    gall = log --all --oneline --topo-order --graph --decorate
+    co = checkout
+    stache = stash
+    fixup = commit --amend -C HEAD
+    ci = commit
+    amend = commit --amend
+    review = diff --staged
+    save = commit -m'savepoint'
+    lg = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
+[color]
+    ui = auto
+[core]
+    whitespace = cr-at-eol
+    filemode = true
+[merge]
+    conflictstyle = diff3
+    renormalize = true
