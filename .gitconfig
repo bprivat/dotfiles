@@ -13,11 +13,15 @@
     review = diff --staged
     save = commit -m'savepoint'
     lg = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
+    rebase-master = rebase -i origin/master
 [color]
     ui = auto
 [core]
     whitespace = cr-at-eol
     filemode = true
+	excludesfile = /Users/bprivat/.gitignore
 [merge]
     conflictstyle = diff3
     renormalize = true
+[push]
+	default = simple
